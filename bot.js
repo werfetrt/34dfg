@@ -57,7 +57,7 @@ client.on('ready',  () => {
     if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('Ladminbc')){
-if(!message.author.id === '476185102922285066') return;
+if(!message.author.id === '558220897547452418') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -90,7 +90,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["467023557281447936"]
+const developers = ["558220897547452418"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
